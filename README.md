@@ -130,3 +130,12 @@ git push -u origin main
 
 - Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
 - Use `CTRL+f` to find (and replace) text within a file.
+
+## Update to cintel-03-signal-design
+
+changed condition from > 1 to < 120
+updated output and data folder in src
+
+## changes I observed
+
+went from 12 out of 12 outputs to 4 out of 12 outputs
