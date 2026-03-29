@@ -118,3 +118,260 @@
 2026-03-27 19:49:02 | INFO | P3 | Pipeline executed successfully!
 2026-03-27 19:49:02 | INFO | P3 | ========================
 2026-03-27 19:49:02 | INFO | P3 | END main()
+2026-03-27 21:39:31 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-27 21:47:26 | INFO | P3 | === RUN START ===
+2026-03-27 21:47:26 | INFO | P3 | project=CINTEL
+2026-03-27 21:47:26 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-27 21:47:26 | INFO | P3 | python=3.14.2
+2026-03-27 21:47:26 | INFO | P3 | os=Darwin 24.6.0
+2026-03-27 21:47:26 | INFO | P3 | shell=zsh
+2026-03-27 21:47:26 | INFO | P3 | cwd=.
+2026-03-27 21:47:26 | INFO | P3 | github_actions=False
+2026-03-27 21:47:26 | INFO | P3 | ========================
+2026-03-27 21:47:26 | INFO | P3 | START main()
+2026-03-27 21:47:26 | INFO | P3 | ========================
+2026-03-27 21:47:26 | INFO | P3 | ROOT_DIR = .
+2026-03-27 21:47:26 | INFO | P3 | DATA_FILE = data/niaaa_apparent_per_capita_consumption_1977_2023.csv
+2026-03-27 21:47:26 | INFO | P3 | OUTPUT_FILE = artifacts/signals_consumption.csv
+2026-03-27 21:47:26 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-27 21:49:30 | INFO | P3 | === RUN START ===
+2026-03-27 21:49:30 | INFO | P3 | project=CINTEL
+2026-03-27 21:49:30 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-27 21:49:30 | INFO | P3 | python=3.14.2
+2026-03-27 21:49:30 | INFO | P3 | os=Darwin 24.6.0
+2026-03-27 21:49:30 | INFO | P3 | shell=zsh
+2026-03-27 21:49:30 | INFO | P3 | cwd=.
+2026-03-27 21:49:30 | INFO | P3 | github_actions=False
+2026-03-27 21:49:30 | INFO | P3 | ========================
+2026-03-27 21:49:30 | INFO | P3 | START main()
+2026-03-27 21:49:30 | INFO | P3 | ========================
+2026-03-27 21:49:30 | INFO | P3 | ROOT_DIR = .
+2026-03-27 21:49:30 | INFO | P3 | DATA_FILE = data/niaaa_apparent_per_capita_consumption_1977_2023.csv
+2026-03-27 21:49:30 | INFO | P3 | OUTPUT_FILE = artifacts/signals_consumption.csv
+2026-03-27 21:49:30 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-27 21:51:51 | INFO | P3 | === RUN START ===
+2026-03-27 21:51:51 | INFO | P3 | project=CINTEL
+2026-03-27 21:51:51 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-27 21:51:51 | INFO | P3 | python=3.14.2
+2026-03-27 21:51:51 | INFO | P3 | os=Darwin 24.6.0
+2026-03-27 21:51:51 | INFO | P3 | shell=zsh
+2026-03-27 21:51:51 | INFO | P3 | cwd=.
+2026-03-27 21:51:51 | INFO | P3 | github_actions=False
+2026-03-27 21:51:51 | INFO | P3 | ========================
+2026-03-27 21:51:51 | INFO | P3 | START main()
+2026-03-27 21:51:51 | INFO | P3 | ========================
+2026-03-27 21:51:51 | INFO | P3 | ROOT_DIR = .
+2026-03-27 21:51:51 | INFO | P3 | DATA_FILE = data/niaaa_apparent_per_capita_consumption_1977_2023.csv
+2026-03-27 21:51:51 | INFO | P3 | OUTPUT_FILE = artifacts/signals_consumption.csv
+2026-03-27 21:51:51 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-27 21:51:51 | INFO | P3 | Loaded 2632 records
+2026-03-27 21:51:51 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-27 21:51:51 | INFO | P3 | Signals created successfully
+2026-03-27 21:51:51 | INFO | P3 | Final table has 2632 rows
+2026-03-27 21:51:51 | INFO | P3 | Wrote signals file: /Users/brandon/Repos/cintel-03-signal-design/artifacts/signals_consumption.csv
+2026-03-27 21:51:51 | INFO | P3 | Creating visualization chart...
+2026-03-27 21:51:52 | INFO | P3 | Saved chart to: /Users/brandon/Repos/cintel-03-signal-design/docs/images/consumption_chart.jpg
+2026-03-27 21:51:52 | INFO | P3 | ========================
+2026-03-27 21:51:52 | INFO | P3 | Pipeline executed successfully!
+2026-03-27 21:51:52 | INFO | P3 | ========================
+2026-03-27 21:51:52 | INFO | P3 | END main()
+2026-03-27 21:58:23 | INFO | P3 | === RUN START ===
+2026-03-27 21:58:23 | INFO | P3 | project=CINTEL
+2026-03-27 21:58:23 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-27 21:58:23 | INFO | P3 | python=3.14.2
+2026-03-27 21:58:23 | INFO | P3 | os=Darwin 24.6.0
+2026-03-27 21:58:23 | INFO | P3 | shell=zsh
+2026-03-27 21:58:23 | INFO | P3 | cwd=.
+2026-03-27 21:58:23 | INFO | P3 | github_actions=False
+2026-03-27 21:58:23 | INFO | P3 | ========================
+2026-03-27 21:58:23 | INFO | P3 | START main()
+2026-03-27 21:58:23 | INFO | P3 | ========================
+2026-03-27 21:58:23 | INFO | P3 | ROOT_DIR = .
+2026-03-27 21:58:23 | INFO | P3 | DATA_FILE = data/niaaa_apparent_per_capita_consumption_1977_2023.csv
+2026-03-27 21:58:23 | INFO | P3 | OUTPUT_FILE = artifacts/signals_consumption.csv
+2026-03-27 21:58:23 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-27 21:58:23 | INFO | P3 | Loaded 2632 records
+2026-03-27 21:58:23 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-27 21:58:23 | INFO | P3 | Signals created successfully
+2026-03-27 21:58:23 | INFO | P3 | Final table has 2632 rows
+2026-03-27 21:58:23 | INFO | P3 | Wrote signals file: /Users/brandon/Repos/cintel-03-signal-design/artifacts/signals_consumption.csv
+2026-03-27 21:58:23 | INFO | P3 | Creating visualization chart...
+2026-03-27 21:58:23 | INFO | P3 | Saved chart to: /Users/brandon/Repos/cintel-03-signal-design/data/consumption_chart.jpg
+2026-03-27 21:58:23 | INFO | P3 | ========================
+2026-03-27 21:58:23 | INFO | P3 | Pipeline executed successfully!
+2026-03-27 21:58:23 | INFO | P3 | ========================
+2026-03-27 21:58:23 | INFO | P3 | END main()
+2026-03-28 18:13:05 | INFO | P3 | === RUN START ===
+2026-03-28 18:13:05 | INFO | P3 | project=CINTEL
+2026-03-28 18:13:05 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-28 18:13:05 | INFO | P3 | python=3.14.2
+2026-03-28 18:13:05 | INFO | P3 | os=Darwin 24.6.0
+2026-03-28 18:13:05 | INFO | P3 | shell=zsh
+2026-03-28 18:13:05 | INFO | P3 | cwd=.
+2026-03-28 18:13:05 | INFO | P3 | github_actions=False
+2026-03-28 18:13:05 | INFO | P3 | ========================
+2026-03-28 18:13:05 | INFO | P3 | START main()
+2026-03-28 18:13:05 | INFO | P3 | ========================
+2026-03-28 18:13:05 | INFO | P3 | ROOT_DIR = .
+2026-03-28 18:13:05 | INFO | P3 | DATA_FILE = data/niaaa_apparent_per_capita_consumption_1977_2023.csv
+2026-03-28 18:13:05 | INFO | P3 | OUTPUT_FILE = artifacts/consumption.csv
+2026-03-28 18:13:05 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-28 18:13:05 | INFO | P3 | Loaded 2632 records
+2026-03-28 18:13:05 | INFO | P3 | Designing signals from the raw metrics
+2026-03-28 18:13:05 | INFO | P3 | Signals created successfully
+2026-03-28 18:13:05 | INFO | P3 | Final table has 2632 rows
+2026-03-28 18:13:05 | INFO | P3 | Wrote signals file: /Users/brandon/Repos/cintel-03-signal-design/artifacts/consumption.csv
+2026-03-28 18:13:05 | INFO | P3 | Creating visualization chart...
+2026-03-28 18:13:06 | INFO | P3 | Saved chart to: /Users/brandon/Repos/cintel-03-signal-design/data/consumption_chart.jpg
+2026-03-28 18:13:06 | INFO | P3 | ========================
+2026-03-28 18:13:06 | INFO | P3 | Pipeline executed successfully!
+2026-03-28 18:13:06 | INFO | P3 | ========================
+2026-03-28 18:13:06 | INFO | P3 | END main()
+2026-03-28 18:27:09 | INFO | P3 | === RUN START ===
+2026-03-28 18:27:09 | INFO | P3 | project=CINTEL
+2026-03-28 18:27:09 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-28 18:27:09 | INFO | P3 | python=3.14.2
+2026-03-28 18:27:09 | INFO | P3 | os=Darwin 24.6.0
+2026-03-28 18:27:09 | INFO | P3 | shell=zsh
+2026-03-28 18:27:09 | INFO | P3 | cwd=.
+2026-03-28 18:27:09 | INFO | P3 | github_actions=False
+2026-03-28 18:27:09 | INFO | P3 | ========================
+2026-03-28 18:27:09 | INFO | P3 | START main()
+2026-03-28 18:27:09 | INFO | P3 | ========================
+2026-03-28 18:27:09 | INFO | P3 | ROOT_DIR = .
+2026-03-28 18:27:09 | INFO | P3 | DATA_FILE = data/niaaa_apparent_per_capita_consumption_1977_2023.csv
+2026-03-28 18:27:09 | INFO | P3 | OUTPUT_FILE = artifacts/consumption.csv
+2026-03-28 18:27:09 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-28 18:27:09 | INFO | P3 | Loaded 2632 records
+2026-03-28 18:27:09 | INFO | P3 | Designing signals from the raw metrics
+2026-03-28 18:27:09 | INFO | P3 | Signals created successfully
+2026-03-28 18:27:09 | INFO | P3 | Final table has 2632 rows
+2026-03-28 18:27:09 | INFO | P3 | Wrote signals file: /Users/brandon/Repos/cintel-03-signal-design/artifacts/consumption.csv
+2026-03-28 18:27:09 | INFO | P3 | Creating visualization chart...
+2026-03-28 18:27:09 | INFO | P3 | Saved chart to: /Users/brandon/Repos/cintel-03-signal-design/data/consumption_chart.jpg
+2026-03-28 18:27:09 | INFO | P3 | ========================
+2026-03-28 18:27:09 | INFO | P3 | Pipeline executed successfully!
+2026-03-28 18:27:09 | INFO | P3 | ========================
+2026-03-28 18:27:09 | INFO | P3 | END main()
+2026-03-28 18:27:41 | INFO | P3 | === RUN START ===
+2026-03-28 18:27:41 | INFO | P3 | project=CINTEL
+2026-03-28 18:27:41 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-28 18:27:41 | INFO | P3 | python=3.14.2
+2026-03-28 18:27:41 | INFO | P3 | os=Darwin 24.6.0
+2026-03-28 18:27:41 | INFO | P3 | shell=zsh
+2026-03-28 18:27:41 | INFO | P3 | cwd=.
+2026-03-28 18:27:41 | INFO | P3 | github_actions=False
+2026-03-28 18:27:41 | INFO | P3 | ========================
+2026-03-28 18:27:41 | INFO | P3 | START main()
+2026-03-28 18:27:41 | INFO | P3 | ========================
+2026-03-28 18:27:41 | INFO | P3 | ROOT_DIR = .
+2026-03-28 18:27:41 | INFO | P3 | DATA_FILE = data/niaaa_apparent_per_capita_consumption_1977_2023.csv
+2026-03-28 18:27:41 | INFO | P3 | OUTPUT_FILE = artifacts/consumption.csv
+2026-03-28 18:27:41 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-28 18:27:41 | INFO | P3 | Loaded 2632 records
+2026-03-28 18:27:41 | INFO | P3 | Designing signals from the raw metrics
+2026-03-28 18:27:41 | INFO | P3 | Signals created successfully
+2026-03-28 18:27:41 | INFO | P3 | Final table has 2632 rows
+2026-03-28 18:27:41 | INFO | P3 | Wrote signals file: /Users/brandon/Repos/cintel-03-signal-design/artifacts/consumption.csv
+2026-03-28 18:27:41 | INFO | P3 | Creating visualization chart...
+2026-03-28 18:27:42 | INFO | P3 | Saved chart to: /Users/brandon/Repos/cintel-03-signal-design/data/consumption_chart.jpg
+2026-03-28 18:27:42 | INFO | P3 | ========================
+2026-03-28 18:27:42 | INFO | P3 | Pipeline executed successfully!
+2026-03-28 18:27:42 | INFO | P3 | ========================
+2026-03-28 18:27:42 | INFO | P3 | END main()
+2026-03-28 18:29:25 | INFO | P3 | === RUN START ===
+2026-03-28 18:29:25 | INFO | P3 | project=CINTEL
+2026-03-28 18:29:25 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-28 18:29:25 | INFO | P3 | python=3.14.2
+2026-03-28 18:29:25 | INFO | P3 | os=Darwin 24.6.0
+2026-03-28 18:29:25 | INFO | P3 | shell=zsh
+2026-03-28 18:29:25 | INFO | P3 | cwd=.
+2026-03-28 18:29:25 | INFO | P3 | github_actions=False
+2026-03-28 18:29:25 | INFO | P3 | ========================
+2026-03-28 18:29:25 | INFO | P3 | START main()
+2026-03-28 18:29:25 | INFO | P3 | ========================
+2026-03-28 18:29:25 | INFO | P3 | ROOT_DIR = .
+2026-03-28 18:29:25 | INFO | P3 | DATA_FILE = data/niaaa_apparent_per_capita_consumption_1977_2023 (1).csv
+2026-03-28 18:29:25 | INFO | P3 | OUTPUT_FILE = artifacts/signals_consumption.csv
+2026-03-28 18:29:25 | INFO | P3 | CHART_FILE = data/consumption_chart.jpg
+2026-03-28 18:29:25 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-28 18:30:12 | INFO | P3 | === RUN START ===
+2026-03-28 18:30:12 | INFO | P3 | project=CINTEL
+2026-03-28 18:30:12 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-28 18:30:12 | INFO | P3 | python=3.14.2
+2026-03-28 18:30:12 | INFO | P3 | os=Darwin 24.6.0
+2026-03-28 18:30:12 | INFO | P3 | shell=zsh
+2026-03-28 18:30:12 | INFO | P3 | cwd=.
+2026-03-28 18:30:12 | INFO | P3 | github_actions=False
+2026-03-28 18:30:12 | INFO | P3 | ========================
+2026-03-28 18:30:12 | INFO | P3 | START main()
+2026-03-28 18:30:12 | INFO | P3 | ========================
+2026-03-28 18:30:12 | INFO | P3 | ROOT_DIR = .
+2026-03-28 18:30:12 | INFO | P3 | DATA_FILE = data/niaaa_apparent_per_capita_consumption_1977_2023.csv
+2026-03-28 18:30:12 | INFO | P3 | OUTPUT_FILE = artifacts/signals_consumption.csv
+2026-03-28 18:30:12 | INFO | P3 | CHART_FILE = artifacts/consumption_chart.jpg
+2026-03-28 18:30:12 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-28 18:30:12 | INFO | P3 | Loaded 2632 alcohol consumption records
+2026-03-28 18:30:12 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-28 18:30:12 | INFO | P3 | Created signal columns: beer_share_signal, spirit_share_signal, total_selected_signal, total_drinks_signal
+2026-03-28 18:30:12 | INFO | P3 | Enhanced signals table has 2632 rows
+2026-03-28 18:30:12 | INFO | P3 | Wrote signals file: /Users/brandon/Repos/cintel-03-signal-design/artifacts/signals_consumption.csv
+2026-03-28 18:30:12 | INFO | P3 | Saved chart file: /Users/brandon/Repos/cintel-03-signal-design/artifacts/consumption_chart.jpg
+2026-03-28 18:30:12 | INFO | P3 | ========================
+2026-03-28 18:30:12 | INFO | P3 | Pipeline executed successfully!
+2026-03-28 18:30:12 | INFO | P3 | ========================
+2026-03-28 18:30:12 | INFO | P3 | END main()
+2026-03-28 18:35:37 | INFO | P3 | === RUN START ===
+2026-03-28 18:35:37 | INFO | P3 | project=CINTEL
+2026-03-28 18:35:37 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-28 18:35:37 | INFO | P3 | python=3.14.2
+2026-03-28 18:35:37 | INFO | P3 | os=Darwin 24.6.0
+2026-03-28 18:35:37 | INFO | P3 | shell=zsh
+2026-03-28 18:35:37 | INFO | P3 | cwd=.
+2026-03-28 18:35:37 | INFO | P3 | github_actions=False
+2026-03-28 18:35:37 | INFO | P3 | ========================
+2026-03-28 18:35:37 | INFO | P3 | START main()
+2026-03-28 18:35:37 | INFO | P3 | ========================
+2026-03-28 18:35:37 | INFO | P3 | ROOT_DIR = .
+2026-03-28 18:35:37 | INFO | P3 | DATA_FILE = data/niaaa_apparent_per_capita_consumption_1977_2023.csv
+2026-03-28 18:35:37 | INFO | P3 | OUTPUT_FILE = artifacts/signals_consumption.csv
+2026-03-28 18:35:37 | INFO | P3 | CHART_FILE = artifacts/consumption_chart.jpg
+2026-03-28 18:35:37 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-28 18:35:37 | INFO | P3 | Loaded 2632 alcohol consumption records
+2026-03-28 18:35:37 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-28 18:35:37 | INFO | P3 | Created signal columns: beer_share_signal, spirit_share_signal, total_selected_signal, total_drinks_signal
+2026-03-28 18:35:37 | INFO | P3 | Enhanced signals table has 2632 rows
+2026-03-28 18:35:37 | INFO | P3 | Wrote signals file: /Users/brandon/Repos/cintel-03-signal-design/artifacts/signals_consumption.csv
+2026-03-28 18:35:37 | INFO | P3 | Creating modern visualization chart...
+2026-03-28 18:35:37 | INFO | P3 | Saved chart file: /Users/brandon/Repos/cintel-03-signal-design/artifacts/consumption_chart.jpg
+2026-03-28 18:35:37 | INFO | P3 | ========================
+2026-03-28 18:35:37 | INFO | P3 | Pipeline executed successfully!
+2026-03-28 18:35:37 | INFO | P3 | ========================
+2026-03-28 18:35:37 | INFO | P3 | END main()
+2026-03-28 18:40:53 | INFO | P3 | === RUN START ===
+2026-03-28 18:40:53 | INFO | P3 | project=CINTEL
+2026-03-28 18:40:53 | INFO | P3 | repo_dir=cintel-03-signal-design
+2026-03-28 18:40:53 | INFO | P3 | python=3.14.2
+2026-03-28 18:40:53 | INFO | P3 | os=Darwin 24.6.0
+2026-03-28 18:40:53 | INFO | P3 | shell=zsh
+2026-03-28 18:40:53 | INFO | P3 | cwd=.
+2026-03-28 18:40:53 | INFO | P3 | github_actions=False
+2026-03-28 18:40:53 | INFO | P3 | ========================
+2026-03-28 18:40:53 | INFO | P3 | START main()
+2026-03-28 18:40:53 | INFO | P3 | ========================
+2026-03-28 18:40:53 | INFO | P3 | ROOT_DIR = .
+2026-03-28 18:40:53 | INFO | P3 | DATA_FILE = data/niaaa_apparent_per_capita_consumption_1977_2023.csv
+2026-03-28 18:40:53 | INFO | P3 | OUTPUT_FILE = artifacts/signals_consumption.csv
+2026-03-28 18:40:53 | INFO | P3 | CHART_FILE = artifacts/consumption_chart.jpg
+2026-03-28 18:40:53 | INFO | P3 | ARTIFACTS_DIR = artifacts
+2026-03-28 18:40:53 | INFO | P3 | Loaded 2632 alcohol consumption records
+2026-03-28 18:40:53 | INFO | P3 | Designing signals from the raw metrics...
+2026-03-28 18:40:53 | INFO | P3 | Created signal columns: beer_share_signal, spirit_share_signal, total_selected_signal, total_drinks_signal
+2026-03-28 18:40:53 | INFO | P3 | Enhanced signals table has 2632 rows
+2026-03-28 18:40:53 | INFO | P3 | Wrote signals file: /Users/brandon/Repos/cintel-03-signal-design/artifacts/signals_consumption.csv
+2026-03-28 18:40:53 | INFO | P3 | Creating visualization chart...
+2026-03-28 18:40:54 | INFO | P3 | Saved chart file: /Users/brandon/Repos/cintel-03-signal-design/artifacts/consumption_chart.jpg
+2026-03-28 18:40:54 | INFO | P3 | ========================
+2026-03-28 18:40:54 | INFO | P3 | Pipeline executed successfully!
+2026-03-28 18:40:54 | INFO | P3 | ========================
+2026-03-28 18:40:54 | INFO | P3 | END main()

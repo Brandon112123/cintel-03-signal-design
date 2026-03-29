@@ -13,97 +13,146 @@ setting up a professional environment,
 reading and running code,
 understanding the logic,
 and pushing work to a shared repository.
-Each project follows the structure of professional Python projects.
-We learn by doing.
+
+---
 
 ## This Project
 
-This project introduces **signal design**.
+This project introduces signal design.
 
-The goal is to copy this repository,
-set up your environment,
-run the example analysis,
-and explore how useful signals can be derived from raw system metrics.
+The original example uses system metrics such as requests, errors, and latency.
 
-You will run the example pipeline, read the code,
-and make small modifications to understand how
-signals are created from raw measurements.
+In this version, I applied the same signal design techniques to a different problem:
+
+alcohol consumption data
+
+The goal is to:
+- read real-world data
+- create useful signals from raw values
+- generate a CSV artifact
+- visualize trends using a chart
+
+---
+
+## Custom Application (Alcohol Signal Design)
+
+This project extends the original example by analyzing alcohol consumption data.
+
+Signals created:
+- beer_share_signal
+- spirit_share_signal
+- total_selected_signal
+- total_drinks_signal
+
+Outputs:
+- artifacts/signals_consumption.csv
+- artifacts/consumption_chart.jpg
+
+---
+
+## Example Chart
+
+![Consumption Chart](artifacts/consumption_chart.jpg)
+
+This chart shows alcohol consumption trends over time.
+
+X-axis: Year
+Y-axis: Average number of drinks per person each year
+
+The lines compare beer and spirits consumption.
+
+---
+
+## Key Insights
+
+- Alcohol consumption trends change over time
+- Beer and spirits contribute differently to total consumption
+- Signals make the dataset easier to understand than raw values
+- Visualization makes long-term trends easier to see
+
+---
 
 ## Data
 
-The example pipeline reads system metrics from: `data/system_metrics_case.csv`.
+This project uses alcohol consumption data with:
 
-Each row represents a system observation with raw measurements
-such as requests, errors, and total latency.
-The pipeline derives signals such as **error rate** and
-**average latency** from these raw values.
+- year
+- state_name
+- ethanol_beer_gallons_per_capita
+- ethanol_spirit_gallons_per_capita
+- ethanol_all_drinks_gallons_per_capita
+- number_of_beers
+- number_of_shots_liquor
+- number_of_drinks_total
+
+Each row represents a state in a given year.
+
+---
 
 ## Working Files
 
-You'll work with just these areas:
+- data/ - raw dataset
+- docs/ - project explanation
+- src/cintel/ - signal design pipeline
+- artifacts/ - output files
+- pyproject.toml - project config
+- zensical.toml - documentation config
 
-- **data/** - it starts with the data
-- **docs/** - tell the story
-- **src/cintel/** - where the magic happens
-- **pyproject.toml** - update authorship & links
-- **zensical.toml** - update authorship & links
+---
+
+## Setup
+
+Open the repository in VS Code.
+
+Install dependencies:
+
+uv sync
+
+---
+
+## Run the Project
+
+uv run python -m cintel.signal_design_custom_brandon
+
+---
+
+## Output Files
+
+After running:
+
+artifacts/signals_consumption.csv
+artifacts/consumption_chart.jpg
+
+---
 
 ## Instructions
 
-Follow the [step-by-step workflow guide](https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/) to complete:
+Follow the workflow guide:
 
-1. Phase 1. **Start & Run**
-2. Phase 2. **Change Authorship**
-3. Phase 3. **Read & Understand**
-4. Phase 4. **Modify**
-5. Phase 5. **Apply**
+https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/
 
-## Challenges
-
-Challenges are expected.
-Sometimes instructions may not quite match your operating system.
-When issues occur, share screenshots, error messages, and details about what you tried.
-Working through issues is part of implementing professional projects.
+---
 
 ## Success
 
-After completing Phase 1. **Start & Run**, you'll have your own GitHub project,
-running on your machine, and running the example will print out:
+When successful, the program outputs:
 
-```shell
 ========================
 Pipeline executed successfully!
 ========================
-```
 
-And a new file named `project.log` will appear in the project folder.
+---
 
 ## Command Reference
 
-The commands below are used in the workflow guide above.
-They are provided here for convenience.
+### In a machine terminal (open in your Repos folder)
 
-Follow the guide for the **full instructions**.
-
-<details>
-<summary>Show command reference</summary>
-
-### In a machine terminal (open in your `Repos` folder)
-
-After you get a copy of this repo in your own GitHub account,
-open a machine terminal in your `Repos` folder:
-
-```shell
-# Replace username with YOUR GitHub username.
 git clone https://github.com/Brandon112123/cintel-03-signal-design
-
 cd cintel-03-signal-design
 code .
-```
 
 ### In a VS Code terminal
 
-```shell
 uv self update
 uv python pin 3.14
 uv sync --extra dev --extra docs --upgrade
@@ -114,6 +163,7 @@ uvx pre-commit run --all-files
 
 uv run python -m cintel.signal_design_case
 uv run python -m cintel.signal_design_brandon
+uv run python -m cintel.signal_design_custom_brandon
 
 uv run ruff format .
 uv run ruff check . --fix
@@ -122,20 +172,20 @@ uv run zensical build
 git add -A
 git commit -m "update"
 git push -u origin main
-```
 
-</details>
+---
 
-## Notes
+## Updates Made
 
-- Use the **UP ARROW** and **DOWN ARROW** in the terminal to scroll through past commands.
-- Use `CTRL+f` to find (and replace) text within a file.
+- Applied signal design to alcohol dataset
+- Created new signals for beer and spirits
+- Added chart visualization
+- Saved outputs to artifacts folder
 
-## Update to cintel-03-signal-design
+---
 
-changed condition from > 1 to < 120
-updated output and data folder in src
+## Changes I Observed
 
-## changes I observed
-
-went from 12 out of 12 outputs to 4 out of 12 outputs
+- Reduced outputs from 12 signals to 4 clearer signals
+- Signals became easier to interpret
+- Visualization made trends easier to understand
