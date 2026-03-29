@@ -137,9 +137,11 @@ https://denisecase.github.io/pro-analytics-02/workflow-b-apply-example-project/
 
 When successful, the program outputs:
 
+```shell
 ========================
 Pipeline executed successfully!
 ========================
+```
 
 ---
 
