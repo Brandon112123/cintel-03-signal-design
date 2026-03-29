@@ -155,6 +155,7 @@ code .
 
 ### In a VS Code terminal
 
+```bash
 uv self update
 uv python pin 3.14
 uv sync --extra dev --extra docs --upgrade
@@ -174,7 +175,7 @@ uv run zensical build
 git add -A
 git commit -m "update"
 git push -u origin main
-
+```
 ---
 
 ## Updates Made
